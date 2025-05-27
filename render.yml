@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: portfolio
+    env: node
+    buildCommand: bun install && bun run build
+    startCommand: bun build/index.js
