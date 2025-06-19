@@ -1,6 +1,4 @@
 <script lang="ts">
-	export const prerender = true
-
 	import CustomCursor from '$lib/components/CustomCursor.svelte';
 	import '../app.css';
 
