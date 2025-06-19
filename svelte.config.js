@@ -1,10 +1,10 @@
 import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-import node from '@sveltejs/adapter-node';
+import netlify from '@sveltejs/adapter-netlify';
 
 const config = {
 	preprocess: vitePreprocess(),
-	kit: { adapter: node() }
+	kit: { adapter: netlify() }
 };
 
 export default config;

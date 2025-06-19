@@ -52,29 +52,27 @@
 ></div>
 
 <style>
-	.cursor-custom {
-		position: fixed;
-		width: 15px;
-		height: 15px;
-		border-radius: 50%;
-		pointer-events: none;
-		z-index: 9999;
-		background: radial-gradient(circle at center, #ff79c6, #bd93f9);
-		box-shadow:
-			0 0 10px #ff79c6,
-			0 0 20px #bd93f9,
-			0 0 30px #8be9fd;
-		transition:
-			transform 0.01s linear,
-			opacity 0.01s linear;
-		transform-origin: center;
-		transform: translate(-50%, -50%);
-		opacity: 0.9;
-	}
+    .cursor-custom {
+        position: fixed;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        pointer-events: none;
+        z-index: 9999;
+        background: radial-gradient(circle at center, #ff79c6, #bd93f9);
+        box-shadow: 0 0 10px #ff79c6,
+        0 0 20px #bd93f9,
+        0 0 30px #8be9fd;
+        transition: transform 0.01s linear,
+        opacity 0.01s linear;
+        transform-origin: center;
+        transform: translate(-50%, -50%);
+        opacity: 0.9;
+    }
 
-	@media (max-width: 1024px) {
-		.cursor-custom {
-			display: none;
-		}
-	}
+    @media (max-width: 1024px) {
+        .cursor-custom {
+            display: none;
+        }
+    }
 </style>
